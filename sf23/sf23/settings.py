@@ -115,7 +115,7 @@ USE_TZ = True
 
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/4.0/howto/static-files/
-STATIC_ROOT='/var/www/static/'
+STATIC_ROOT = '/static/'
 STATIC_URL = 'static/'
 
 # Default primary key field type
@@ -125,4 +125,4 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # trust form from this origin
 # Dont add / at the end
-CSRF_TRUSTED_ORIGINS = ["http://locus3002.eastus.cloudapp.azure.com"]
+CSRF_TRUSTED_ORIGINS = ["http://*"]
