@@ -122,4 +122,7 @@ STATIC_URL = 'static/'
 # https://docs.djangoproject.com/en/4.0/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+# trust form from this origin
+# Dont add / at the end
 CSRF_TRUSTED_ORIGINS = ["http://locus3002.eastus.cloudapp.azure.com"]
